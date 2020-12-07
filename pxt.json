@@ -1,5 +1,5 @@
 {
-    "name": "pet-all-the-dogs",
+    "name": "pet-all-the-dogs-starter",
     "description": "",
     "dependencies": {
         "device": "*",
@@ -26,5 +26,5 @@
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "tsprj"
+    "preferredEditor": "blocksprj"
 }
