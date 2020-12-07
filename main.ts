@@ -158,11 +158,3 @@ img`
     .d11d1dd11d111d.
     `
 ]
-game.onUpdateInterval(100, function () {
-    let isPlaying = 0
-    let tumbleWeed: Sprite = null
-    let introFinished = 0
-    if (introFinished && tumbleWeed.isHittingTile(CollisionDirection.Bottom) && !(isPlaying)) {
-        tumbleWeed.vy = -200
-    }
-})
